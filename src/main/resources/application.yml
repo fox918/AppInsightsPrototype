@@ -15,4 +15,5 @@ spring:
       -
 azure:
   application-insights:
+    # just a demo key, not working
     instrumentation-key: "3d6095bb-5c66-4061-bad5-28aff158f688"
