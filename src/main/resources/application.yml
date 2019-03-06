@@ -1,0 +1,18 @@
+server:
+  port: 5500
+
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: prototype
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+      -
+azure:
+  application-insights:
+    instrumentation-key: "3d6095bb-5c66-4061-bad5-28aff158f688"
